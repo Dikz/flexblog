@@ -51,6 +51,9 @@ img {
 /* Menu */
 .menu-bg {
 	background: #2c70ff;
+	position: fixed;
+    width: 100%;
+    top: 0;
 }
 
 .menu {
@@ -94,7 +97,13 @@ img {
 	line-height: 1;
 	max-width: 960px;
 	margin: 0 auto;
-	padding: 60px 10px;
+	padding: 100px 10px;
+}
+
+@media (max-width: 800px) {
+	.introducao {
+		padding: 45% 5px;
+	}
 }
 
 /* Sobre */
